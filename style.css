@@ -1,8 +1,17 @@
 body {
-	background: url(images/desk.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100vh;
+}
+.bg-contain {
+	background: url(images/desk.jpg) center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
 }
 .swiper-container {
 	border: 8px solid white;
